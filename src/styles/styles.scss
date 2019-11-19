@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import "bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/grid/columns.sass";
+
+.layout {
+  padding: 2rem 0;
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+.header {
+  .site-title {
+    margin-bottom: 0;
+  }
+}
+
+.spacer {
+  margin: 0 0.5rem;
+}
+
+.sidebar {
+  [aria-current] {
+    font-weight: bold;
+  }
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
